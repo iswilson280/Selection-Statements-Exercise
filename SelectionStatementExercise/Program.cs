@@ -29,7 +29,49 @@
             {
                 Console.WriteLine("you guessed correctly");
             }
-        }   
+
+            Console.WriteLine("What is your favorite school subject");
+            var favSubject = Console.ReadLine();
+
+            switch (favSubject)
+            {
+                case "english":
+                    Console.WriteLine("boring subject");
+                    break;
+
+                case "history":
+                    Console.WriteLine("easiest subject");
+                    break;
+
+                case "athletics":
+                    Console.WriteLine("best time of the day");
+                    break;
+
+
+                case "music":
+                    Console.WriteLine("show up and pass");
+                    break;
+
+                case "economics":
+                    Console.WriteLine("you better study");
+                    break;
+
+
+                default:
+                    Console.WriteLine("no class today");
+                    break;
+
+                
+
+            }
+            
+
+
+        }
+
+
+
+
 
     }
 }
